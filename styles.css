@@ -6,10 +6,11 @@ body {
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
        url('images/bg.jpg');
+  background-attachment: fixed;
 }
 
 .main-content {
-  width: 65%;
+  width: 70%;
   max-width: 850px;
   margin: 13px auto;
 }
@@ -19,6 +20,7 @@ p {
   font-size: .8em;
   margin: 0;
   padding: 0;
+  line-height: 1.8em;
 }
 
 h2 {
@@ -26,13 +28,22 @@ h2 {
   font-size: 1.2em;
 }
 
-header {
-  height: 100%;
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5em;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1em;
 }
+
 
 /******************************
 HEADER/NAV
 ******************************/
+
+header {
+  height: 100%;
+}
 
 .top-bar {
   text-align: right;
@@ -67,6 +78,12 @@ HEADER/NAV
   width: 41%;
   float: right;
   padding-top: 11px;
+}
+
+@media (max-width: 1017px) {
+  .social-media-container {
+    width: 100%;
+  }
 }
 
 .social-media-buttons {
@@ -105,10 +122,7 @@ nav {
   padding: 10px 0;
   width: 100%;
 }
-.nav-button-container{
-  display: inline-block;
-  width: 197px;
-}
+
 .nav-button-container {
   height: 40px;
   width: 24.1%;
@@ -116,7 +130,19 @@ nav {
   background-color: #B4292E;
   margin-right: 4px;
   margin-bottom: 0;
+  height: 34px;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
 }
+
+@media (max-width: 1220px) {
+  .nav-button-container {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
 
 .nav-button-container:last-child {
   margin-right: 0px;
@@ -128,7 +154,7 @@ nav {
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  margin-top: 10px;
+  margin-top: 7px;
   font-size: .8em;
 }
 
@@ -147,7 +173,7 @@ span.dash {
 }
 
 /******************************
-HERO
+HERO SECTION
 ******************************/
 .hero-slider {
   height: 100%;
@@ -169,7 +195,7 @@ HERO
   position: absolute;
   height: 100%;
   width: 100%;
-  opacity: .7;
+  opacity: .5;
 }
 
 .hero-slider-button-section {
@@ -198,13 +224,19 @@ TEXT SECTION
   width: 100%;
 }
 .text-block {
-  width: 25.4%;
+  width: 27.7%;
   display: inline-block;
-  height: 300px;
   margin-right: 6px;
-  padding: 0px 27px;
+  padding: 0px 20px;
   background-color: white;
   vertical-align: top;
+}
+
+@media (max-width: 1182px) {
+  .text-block {
+    width: 95%;
+    margin-top: 10px;
+  }
 }
 
 .text-block:last-child {
@@ -217,3 +249,112 @@ TEXT SECTION
   color: lightgrey;
   font-size: .8em;
 }
+
+.date-container {
+  margin: 10px 0;
+}
+
+.read-more-container {
+  margin: 16px 0;
+  text-align: center;
+}
+.read-more-link {
+  text-transform: uppercase;
+  color: #BD414C;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+/******************************
+GALLERY SECTION
+******************************/
+.gallery-section {
+  width: 100%;
+
+  margin-top: 33px;
+}
+
+.gallery-col-1 {
+  width: 66%;
+  height: 412px;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.photo-top-left {
+  height: 50%;
+  width: 47%;;
+  display: inline-block;
+  margin-right: 6px;
+  background-image: url("images/sk8er-4.png");
+  background-size: cover;
+  background-position: right;
+  border: 5px solid white;
+}
+
+.photo-top-right {
+  height: 50%;
+  width: 47%;
+  display: inline-block;
+  background-image: url("images/sk8er-3.png");
+  background-size: cover;
+  background-position: right;
+  border: 5px solid white;
+  }
+
+.photo-bottom {
+    height: 50%;
+    width: 97.5%;
+    display: inline-block;
+    margin-top: 9px;
+    background-image: url("images/sk8er-1.png");
+    background-size: cover;
+    background-position: right;
+    border: 5px solid white;
+    }
+
+.gallery-col-2 {
+  width: 32%;
+  height: 432px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.photo-right {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-image: url("images/sk8er-2.png");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    }
+
+.gallery-section h3 {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.gallery-section .photo-bottom h3 {
+  margin-top: 16%;
+}
+
+.gallery-section .photo-right h3 {
+  margin-top: 58%;
+}
+
+@media (max-width: 1097px) {
+  .photo-top-left, .photo-top-right, .photo-bottom, .photo-right {
+    width: 100%;
+  }
+}
+
+/******************************
+SKATEBOARD SECTION
+******************************/
