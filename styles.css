@@ -141,8 +141,10 @@ nav {
 }
 
 .nav-button-container:hover {
-  background-color: black;
-  transition:background-color 1s;
+  background-color: #9C2A2F;
+  transition: all .75s;
+  box-shadow: 0 1px 0 rgba(171,171,171,.7);
+  transform: translateY(2px);
 }
 
 @media (max-width: 1220px) {
@@ -152,6 +154,8 @@ nav {
   }
 }
 
+
+}
 
 .nav-button-container:last-child {
   margin-right: 0px;
@@ -209,6 +213,7 @@ HERO SECTION
   height: 100%;
   width: 100%;
   opacity: .5;
+  z-index: 1;
 }
 
 .hero-slider-button-section {
@@ -230,13 +235,46 @@ HERO SECTION
 }
 
 /******************************
+SLIDER ANIMATION
+******************************/
+.hero-slider {
+  overflow: visible;
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+
+.slider-box img {
+  width: 33.3%; float: left;
+}
+
+.slider-box {
+  position: relative;
+  width: 300%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slider infinite;
+}
+@keyframes slider {
+0% { left: 0%; }
+30% { left: 0%; }
+33% { left: -100%; }
+63% { left: -100%; }
+66% {left: -200%; }
+96% {left: -200%; }
+100% {left: 0%; }
+}
+
+/******************************
 RED ARROW
 ******************************/
-
 .red-arrow-container {
   position: absolute;
   left: -211px;
   top: 54px;
+  display: inline-block;
 }
 
 .red-arrow {
@@ -623,6 +661,7 @@ textarea {
 .button {
   text-align: right;
   margin-right: -25px;
+  margin-top: 15px;
 }
 button {
   background-color: #B4292E;
