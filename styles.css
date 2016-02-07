@@ -230,6 +230,52 @@ HERO SECTION
 }
 
 /******************************
+RED ARROW
+******************************/
+
+.red-arrow-container {
+  position: absolute;
+  left: -211px;
+  top: 54px;
+}
+
+.red-arrow {
+  width: 0;
+  height: 0;
+  border-top: 53px solid transparent;
+  border-bottom: 53px solid transparent;
+  border-left: 47px solid #B4292E;
+  display: inline-block;
+}
+
+.red-arrow-textbox {
+  height: 65px;
+  background-color: #B4292E;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-right: -5px;
+  width: 161px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  padding-top: 40px;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+.red-arrow-container h5 {
+  position: absolute;
+  left: 19px;
+  top: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.1em;
+}
+
+/******************************
 TEXT SECTION
 ******************************/
 
@@ -288,7 +334,7 @@ GALLERY SECTION
 ******************************/
 .gallery-section {
   width: 100%;
-
+  position: relative;
   margin-top: 33px;
 }
 
@@ -307,19 +353,10 @@ GALLERY SECTION
   background-image: url("images/sk8er-4.png");
   background-size: cover;
   background-position: right;
-  transition: all .2s ease-in-out;
   border: 5px solid white;
   -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-}
-
-.photo-top-left:hover {
-  transform: scale(1.05);
-   -moz-transform: scale(1.05);
-   -webkit-transform: scale(1.05);
-   -o-transform: scale(1.05);
-   -ms-transform: scale(1.05);
 }
 
 .photo-top-right {
@@ -390,7 +427,7 @@ GALLERY SECTION
   .main-content {
     width: 80%;
   }
-  .photo-top-left, .photo-top-right, .photo-bottom, .photo-right {
+ .photo-top-right, .photo-top-left, .photo-bottom, .photo-right {
     width: 100%;
     margin-bottom: 15px;
   }
@@ -401,7 +438,7 @@ GALLERY SECTION
     width: 100%;
   }
   .photo-right {
-    margin-top: 75px;
+    margin-top: 118px;
     height: 216px;
   }
   .gallery-section h3 {
@@ -425,6 +462,8 @@ SKATEBOARD SECTION
   width: 100%;
   margin-top: 40px;
   background-color: white;
+  height: 264px;
+  overflow: hidden;
   -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
@@ -433,7 +472,7 @@ SKATEBOARD SECTION
 .skateboard-col {
   height: 260px;
   display: inline-block;
-  width: 6.3%;
+  width: 49.7px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -488,7 +527,6 @@ FOOTER
 
 .left-footer-col {
   width: 43%;
-  height: 275px;
   display: inline-block;
   vertical-align: top;
   padding: 26px;
@@ -496,7 +534,6 @@ FOOTER
 
 .right-footer-col {
   width: 43%;
-  height: 275px;
   display: inline-block;
   padding: 26px;
 }
@@ -582,6 +619,10 @@ textarea {
   padding: 10px;
 }
 
+.button {
+  text-align: right;
+  margin-right: -25px;
+}
 button {
   background-color: #B4292E;
   border: none;
