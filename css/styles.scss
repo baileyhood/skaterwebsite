@@ -358,10 +358,11 @@ GALLERY SECTION
 }
 
 .gallery-col-1 {
-  width: 66%;
+  width: 66.4%;
   height: 412px;
   display: inline-block;
-  margin-right: 5px;
+  margin-right: 3px;
+
 }
 
 .photo-top-left {
@@ -627,4 +628,4 @@ button {
   font-size: .8em;
   padding: 5px 85px;
 }
-@import 'mobile';
+@import 'breakpoints';
