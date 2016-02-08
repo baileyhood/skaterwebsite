@@ -1,0 +1,124 @@
+/******************************
+MOBILE
+******************************/
+@media (max-width: 1097px) {
+    .main-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-content {
+        width: 100%;
+        }
+    .dotted-ellpis-graphic {
+      display: none;
+    }
+    .top-bar {
+      text-align: center;
+      p {
+        font-size: 1.3em;
+        }
+    }
+}
+
+
+@media (max-width: 1017px) {
+    .social-media-container {
+        width: 100%;
+    }
+
+    .top-bar p {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 1220px) {
+    .nav-button-container {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 1182px) {
+    .text-block {
+        width: 95%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 969px) {
+
+    .red-arrow-container{
+      display: none;
+    }
+
+    .right-footer-col {
+        width: 87%;
+    }
+
+    .left-footer-col {
+        width: 87%;
+    }
+
+    .photo-top-right,.photo-top-left,.photo-bottom,.photo-right {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .gallery-col-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-col-2 {
+        width: 100%;
+    }
+
+    .photo-top-right,.photo-top-left,.photo-bottom,.gallery-col-2 {
+        margin-top: 10px;
+        height: 216px;
+        box-sizing: border-box;
+    }
+
+    .gallery-section h3 {
+        margin-top: 10%;
+    }
+
+    .gallery-section .photo-bottom h3 {
+        margin-top: 10%;
+    }
+
+    .gallery-section .photo-right h3 {
+        margin-top: 10%;
+    }
+}
+
+
+@media (max-width: 850px) {
+  .gallery-section h3 {
+      margin-top: 15%;
+  }
+
+  .gallery-section .photo-bottom h3 {
+      margin-top: 15%;
+  }
+
+  .gallery-section .photo-right h3 {
+      margin-top: 15%;
+}
+}
+
+@media (max-width: 620px) {
+  .gallery-section h3 {
+      margin-top: 20%;
+  }
+
+  .gallery-section .photo-bottom h3 {
+      margin-top: 20%;
+  }
+
+  .gallery-section .photo-right h3 {
+      margin-top: 20%;
+}
+}

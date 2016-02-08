@@ -5,7 +5,7 @@ GENERAL
 body {
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-       url('/images/bg.jpg');
+       url('../images/bg.jpg');
   background-attachment: fixed;
 }
 
@@ -80,14 +80,7 @@ header {
   padding-top: 11px;
 }
 
-@media (max-width: 1017px) {
-  .social-media-container {
-    width: 100%;
-  }
-  .top-bar p{
-    margin-right: 0;
-  }
-}
+
 
 .social-media-buttons {
   height: 41px;
@@ -128,7 +121,7 @@ nav {
 
 .nav-button-container {
   height: 40px;
-  width: 24.1%;
+  width: 24.5%;
   display: inline-block;
   background-color: #B4292E;
   margin-right: 4px;
@@ -147,15 +140,8 @@ nav {
   transform: translateY(2px);
 }
 
-@media (max-width: 1220px) {
-  .nav-button-container {
-    width: 100%;
-    margin-top: 5px;
-  }
-}
 
 
-}
 
 .nav-button-container:last-child {
   margin-right: 0px;
@@ -332,12 +318,7 @@ TEXT SECTION
   box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
 }
 
-@media (max-width: 1182px) {
-  .text-block {
-    width: 95%;
-    margin-top: 10px;
-  }
-}
+
 
 .text-block:last-child {
   margin-right: 0;
@@ -388,7 +369,7 @@ GALLERY SECTION
   width: 47%;;
   display: inline-block;
   margin-right: 6px;
-  background-image: url("images/sk8er-4.png");
+  background-image: url("../images/sk8er-4.png");
   background-size: cover;
   background-position: right;
   border: 5px solid white;
@@ -401,7 +382,7 @@ GALLERY SECTION
   height: 50%;
   width: 47%;
   display: inline-block;
-  background-image: url("images/sk8er-3.png");
+  background-image: url("../images/sk8er-3.png");
   background-size: cover;
   background-position: right;
   border: 5px solid white;
@@ -415,7 +396,7 @@ GALLERY SECTION
     width: 97.5%;
     display: inline-block;
     margin-top: 9px;
-    background-image: url("images/sk8er-1.png");
+    background-image: url("../images/sk8er-1.png");
     background-size: cover;
     background-position: right;
     border: 5px solid white;
@@ -435,7 +416,7 @@ GALLERY SECTION
     height: 100%;
     width: 100%;
     display: inline-block;
-    background-image: url("images/sk8er-2.png");
+    background-image: url("../images/sk8er-2.png");
     background-size: cover;
     background-position: center;
     border: 5px solid white;
@@ -461,36 +442,8 @@ GALLERY SECTION
   margin-top: 58%;
 }
 
-@media (max-width: 1097px) {
-  .main-content {
-    width: 80%;
-  }
- .photo-top-right, .photo-top-left, .photo-bottom, .photo-right {
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  .gallery-col-1 {
-    width: 100%;
-  }
-  .gallery-col-2 {
-    width: 100%;
-  }
-  .photo-right {
-    margin-top: 118px;
-    height: 216px;
-  }
-  .gallery-section h3 {
-    margin-top: 10%;
-  }
 
-  .gallery-section .photo-bottom h3 {
-    margin-top: 10%;
-  }
 
-  .gallery-section .photo-right h3 {
-    margin-top: 10%;
-  }
-}
 
 /******************************
 SKATEBOARD SECTION
@@ -500,8 +453,7 @@ SKATEBOARD SECTION
   width: 100%;
   margin-top: 40px;
   background-color: white;
-  height: 264px;
-  overflow: hidden;
+  text-align: center;
   -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
   box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
@@ -523,34 +475,34 @@ SKATEBOARD SECTION
 }
 
 #sk1-img {
-  background-image:url("Images/sk8-1.png");
+  background-image:url("../Images/sk8-1.png");
 }
 #sk2-img {
-  background-image:url("Images/sk8-2.png");
+  background-image:url("../Images/sk8-2.png");
 }
 #sk3-img {
-  background-image:url("Images/sk8-3.png");
+  background-image:url("../Images/sk8-3.png");
 }
 #sk4-img {
-  background-image:url("Images/sk8-4.png");
+  background-image:url("../Images/sk8-4.png");
 }
 #sk5-img {
-  background-image:url("Images/sk8-5.png");
+  background-image:url("../Images/sk8-5.png");
 }
 #sk6-img {
-  background-image:url("Images/sk8-6.png");
+  background-image:url("../Images/sk8-6.png");
 }
 #sk7-img {
-  background-image:url("Images/sk8-7.png");
+  background-image:url("../Images/sk8-7.png");
 }
 #sk8-img {
-  background-image:url("Images/sk8-8.png");
+  background-image:url("../Images/sk8-8.png");
 }
 #sk9-img {
-  background-image:url("Images/sk8-9.png");
+  background-image:url("../Images/sk8-9.png");
 }
 #sk10-img {
-  background-image:url("Images/sk8-10.png");
+  background-image:url("../Images/sk8-10.png");
 }
 
 /******************************
@@ -659,6 +611,7 @@ textarea {
   border-top: 3px solid #B2B2B2;
   border-left: 3px solid #B2B2B2;
   padding: 10px;
+  width: 100%
 }
 
 .button {
@@ -674,10 +627,4 @@ button {
   font-size: .8em;
   padding: 5px 85px;
 }
-
-@media (max-width: 969px) {
-  .right-footer-col {
-    width: 87%;}
-    .left-footer-col {
-      width: 87%;}
-  }
+@import 'mobile';
