@@ -1,0 +1,139 @@
+/******************************
+RED ARROW
+******************************/
+.red-arrow-container {
+  position: absolute;
+  left: -211px;
+  top: 54px;
+  display: inline-block;
+}
+
+.red-arrow {
+  width: 0;
+  height: 0;
+  border-top: 53px solid transparent;
+  border-bottom: 53px solid transparent;
+  border-left: 47px solid $mainRed;
+  display: inline-block;
+}
+
+.red-arrow-textbox {
+  height: 65px;
+  background-color: $mainRed;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  margin-right: -5px;
+  width: 161px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+  padding-top: 40px;
+  @include mainBoxShadow;
+}
+
+.red-arrow-container h5 {
+  position: absolute;
+  left: 19px;
+  top: 14px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 1.1em;
+}
+
+
+/******************************
+GALLERY SECTION
+******************************/
+.gallery-section {
+  width: 100%;
+  position: relative;
+  margin-top: 33px;
+}
+
+.gallery-col-1 {
+  width: 66.4%;
+  height: 412px;
+  display: inline-block;
+  margin-right: 3px;
+
+}
+
+.photo-top-left {
+  height: 50%;
+  width: 47%;;
+  display: inline-block;
+  margin-right: 6px;
+  background-image: url("../images/sk8er-4.png");
+  background-size: cover;
+  background-position: right;
+  border: 5px solid white;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+.photo-top-right {
+  height: 50%;
+  width: 47%;
+  display: inline-block;
+  background-image: url("../images/sk8er-3.png");
+  background-size: cover;
+  background-position: right;
+  border: 5px solid white;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  }
+
+.photo-bottom {
+    height: 50%;
+    width: 97.5%;
+    display: inline-block;
+    margin-top: 9px;
+    background-image: url("../images/sk8er-1.png");
+    background-size: cover;
+    background-position: right;
+    border: 5px solid white;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    }
+
+.gallery-col-2 {
+  width: 32%;
+  height: 432px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.photo-right {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    background-image: url("../images/sk8er-2.png");
+    background-size: cover;
+    background-position: center;
+    border: 5px solid white;
+    -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    }
+
+.gallery-section h3 {
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25%;
+}
+
+.gallery-section .photo-bottom h3 {
+  margin-top: 16%;
+}
+
+.gallery-section .photo-right h3 {
+  margin-top: 58%;
+}

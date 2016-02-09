@@ -1,0 +1,10 @@
+/******************************
+VARIABLES-MIXINS SECTION
+******************************/
+
+$mainRed: #B4292E;
+@mixin mainBoxShadow {
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}

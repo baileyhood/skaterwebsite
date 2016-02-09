@@ -1,0 +1,122 @@
+/******************************
+FOOTER
+******************************/
+
+.footer-section {
+  width: 100%;
+  background-color: white;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+.left-footer-col {
+  width: 43%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 26px;
+}
+
+.right-footer-col {
+  width: 43%;
+  display: inline-block;
+  padding: 26px;
+}
+
+.footer-section h4 {
+  margin:0;
+  margin-bottom: 10px;
+  font-size: 1.3em;
+  font-family: 'Open Sans', sans-serif;
+  color: #4B4C49;
+}
+
+.footer-section p {
+  color: #4B4C49;
+  margin-bottom: 10px;
+}
+
+.footer-section .social-media-buttons {
+  border: none;
+  width: 30px;
+  height: 21px;
+  font-size: 1em;
+  padding-top: 5px;
+  padding-bottom: 3px;
+}
+
+.footer-section .social-media-buttons .fa {
+  font-size: 20px;
+
+}
+
+.footer-section #facebook-button {
+  background-color: #4E4E4E;
+}
+
+.footer-section #rss-button {
+  background-color: #AEAEAE;
+}
+
+.footer-section #twitter-button {
+  background-color:#7B7B7B;
+}
+
+.footer-section #youtube-button {
+  background-color:#747474;
+}
+
+.form-container {
+  width: 96%;
+}
+
+.form {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  color: lightgrey;
+  text-transform: uppercase;
+  font-size: .8em;
+  }
+
+input[type=text] {
+    height: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #B2B2B2;
+    border-top: 3px solid #B2B2B2;
+    border-left: 3px solid #B2B2B2;
+    padding: 10px;
+}
+
+input[type=email] {
+    height: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #B2B2B2;
+    border-top: 3px solid #B2B2B2;
+    border-left: 3px solid #B2B2B2;
+    padding: 10px;
+}
+
+textarea {
+  height: 100px;
+  border: 1px solid #B2B2B2;
+  border-top: 3px solid #B2B2B2;
+  border-left: 3px solid #B2B2B2;
+  padding: 10px;
+  width: 100%
+}
+
+.button {
+  text-align: right;
+  margin-right: -25px;
+  margin-top: 15px;
+}
+button {
+  background-color: $mainRed;
+  border: none;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: .8em;
+  padding: 5px 85px;
+}

@@ -1,0 +1,131 @@
+/******************************
+HEADER/NAV
+******************************/
+
+header {
+  height: 100%;
+}
+
+.top-bar {
+  text-align: right;
+  height: 80px;
+}
+
+.top-bar p {
+  display: inline-block;
+  margin-right: -44px;
+  text-align: right;
+  margin-top: 31px;
+}
+
+.top-bar a{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: .9em;
+}
+.dotted-ellpis-graphic {
+  display: inline-block;
+  color: white;
+}
+
+.fa:nth-child(1n+0) {
+  display: block;
+  font-size: 6px;
+}
+.social-media-container {
+  display: inline-block;
+  width: 41%;
+  float: right;
+  padding-top: 11px;
+}
+
+.social-media-buttons {
+  height: 41px;
+  width: 50px;
+  background-color: blue;
+  display: inline-block;
+  text-align: center;
+  font-size: 42px;
+  padding-top: 12px;
+  border-bottom: 4px solid #838382;
+}
+
+.social-media-buttons .fa {
+  font-size: 33px;
+  display: block;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+#facebook-button {
+  background-color: #445897;
+}
+#rss-button{
+  background-color: #CC8F32;
+}
+#twitter-button{
+  background-color: #6A8DC7;
+}
+#youtube-button{
+  background-color: #B2382D;
+}
+
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.nav-button-container {
+  height: 40px;
+  width: 24.5%;
+  display: inline-block;
+  background-color: $mainRed;
+  margin-right: 4px;
+  margin-bottom: 0;
+  height: 34px;
+
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+.nav-button-container:hover {
+  background-color: #9C2A2F;
+  transition: all .75s;
+  box-shadow: 0 1px 0 rgba(171,171,171,.7);
+  transform: translateY(2px);
+}
+
+
+
+
+.nav-button-container:last-child {
+  margin-right: 0px;
+}
+
+.nav-text {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin-top: 7px;
+  font-size: .8em;
+}
+
+span.dash {
+  margin: 0 10px;
+  font-weight: 400;
+}
+
+.bottom-transparent-line {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  display: inline-block;
+  width: 100%;
+  opacity: .7;
+  vertical-align: -2px;
+}

@@ -1,0 +1,48 @@
+/******************************
+TEXT SECTION
+******************************/
+
+.text-section {
+  width: 100%;
+}
+.text-block {
+  width: 27.7%;
+  display: inline-block;
+  margin-right: 6px;
+  padding: 0px 20px;
+  background-color: white;
+  vertical-align: top;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+
+
+.text-block:last-child {
+  margin-right: 0;
+  vertical-align: top;
+}
+
+.date-text {
+  font-family: 'Open Sans', sans-serif;
+  color: lightgrey;
+  font-size: .8em;
+}
+
+.date-container {
+  margin: 10px 0;
+}
+
+.read-more-container {
+  margin: 16px 0;
+  text-align: center;
+}
+.read-more-link {
+  text-transform: uppercase;
+  color: #BD414C;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}

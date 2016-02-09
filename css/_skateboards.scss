@@ -1,0 +1,60 @@
+
+/******************************
+SKATEBOARD SECTION
+******************************/
+
+.skateboard-gallery-section {
+  width: 100%;
+  margin-top: 40px;
+  background-color: white;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+}
+
+.skateboard-col {
+  height: 260px;
+  display: inline-block;
+  width: 49.7px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 12.8px;
+}
+
+.gallery-block {
+  margin: 0 auto;
+  width: 95%;
+}
+
+#sk1-img {
+  background-image:url("../Images/sk8-1.png");
+}
+#sk2-img {
+  background-image:url("../Images/sk8-2.png");
+}
+#sk3-img {
+  background-image:url("../Images/sk8-3.png");
+}
+#sk4-img {
+  background-image:url("../Images/sk8-4.png");
+}
+#sk5-img {
+  background-image:url("../Images/sk8-5.png");
+}
+#sk6-img {
+  background-image:url("../Images/sk8-6.png");
+}
+#sk7-img {
+  background-image:url("../Images/sk8-7.png");
+}
+#sk8-img {
+  background-image:url("../Images/sk8-8.png");
+}
+#sk9-img {
+  background-image:url("../Images/sk8-9.png");
+}
+#sk10-img {
+  background-image:url("../Images/sk8-10.png");
+}
