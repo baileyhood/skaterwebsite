@@ -582,7 +582,8 @@ MOBILE
 
 @media (max-width: 1182px) {
   .text-block {
-    width: 95%;
+    width: 100%;
+    padding: 0;
     margin-top: 10px; } }
 
 @media (max-width: 969px) {
