@@ -557,16 +557,6 @@ RESPONSIVE BREAKPOINTS
   .main-content {
     width: 80%; } }
 
-@media (max-width: 500px) {
-  .main-content {
-    width: 100%; }
-  .dotted-ellpis-graphic {
-    display: none; }
-  .top-bar {
-    text-align: center; }
-  .top-bar p {
-    font-size: 1.3em; } }
-
 @media (max-width: 1017px) {
   .social-media-container {
     width: 100%; }
@@ -586,8 +576,9 @@ RESPONSIVE BREAKPOINTS
 @media (max-width: 1182px) {
   .text-block {
     width: 100%;
-    padding: 0;
-    margin-top: 10px; } }
+    margin-top: 10px; }
+  .text-block-col {
+    padding: 0 30px; } }
 
 @media (max-width: 969px) {
   .red-arrow-container {
@@ -638,3 +629,23 @@ RESPONSIVE BREAKPOINTS
 @media (max-width: 1044px) {
   .skateboard-col {
     width: 44.7px; } }
+
+@media (max-width: 500px) {
+  .main-content {
+    width: 100%; }
+  .dotted-ellpis-graphic {
+    display: none; }
+  .top-bar {
+    text-align: center; }
+  .top-bar p {
+    font-size: 1.3em; }
+  .text-box {
+    width: 84%;
+    padding: 2% 8%;
+    margin-top: 10px; } }
+
+@media (max-width: 1182px) {
+  .text-block {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0; } }

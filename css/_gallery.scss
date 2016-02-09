@@ -69,9 +69,7 @@ GALLERY SECTION
   background-size: cover;
   background-position: right;
   border: 5px solid white;
-  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  @include mainBoxShadow;
 }
 
 .photo-top-right {
@@ -82,9 +80,7 @@ GALLERY SECTION
   background-size: cover;
   background-position: right;
   border: 5px solid white;
-  -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-  -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-  box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+  @include mainBoxShadow;
   }
 
 .photo-bottom {
@@ -96,9 +92,7 @@ GALLERY SECTION
     background-size: cover;
     background-position: right;
     border: 5px solid white;
-    -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-    -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-    box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    @include mainBoxShadow;
     }
 
 .gallery-col-2 {
@@ -116,9 +110,7 @@ GALLERY SECTION
     background-size: cover;
     background-position: center;
     border: 5px solid white;
-    -webkit-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-    -moz-box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
-    box-shadow: 0px 4px 0px 0px rgba(171,171,171,.7);
+    @include mainBoxShadow;
     }
 
 .gallery-section h3 {
